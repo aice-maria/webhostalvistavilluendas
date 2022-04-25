@@ -1,0 +1,357 @@
+body {
+    position: relative;
+}
+
+#headercontainer {
+    padding: 10px 0px 0px;
+    width: 100%;
+    
+   
+}
+
+#logobar{
+    padding: 0em 5em;
+}
+
+#logodim {
+    width: 8em;
+    height: 4em;
+}
+
+#dimeye {
+
+    padding: 3em auto;
+    width: 20em;
+    height: 10em;
+}
+
+#g {
+    padding-top: 120px;
+}
+
+#navbarcontainer {
+    padding: 0em 0em;
+    margin-top: 0.5em;
+    background:  rgba(214, 201, 18, 0.232);
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+#carauselcontainer {
+    padding: 0em;
+    margin: 0em;
+}
+
+#carauselimages {
+    width: 100%;
+}
+
+#description {
+    padding: 2em;
+    background-color: rgba(254, 192, 7);
+    font-size: larger;
+}
+
+#descriptiontext {
+    background-color: rgba(254, 192, 7);
+    padding: 3em;
+    color: white;
+    transition:  background-color 6s ;
+
+}
+
+#descriptiontext:hover{
+    background-color: rgba(84, 86, 46, 0.236);
+}
+
+#map {
+    padding-top: 2em;
+    /*padding-right: 0.5em;   */
+}
+
+
+#servicios {
+    color: rgb(35, 35, 35);
+    background: rgb(254, 213, 89);
+    padding: 7em 2em;
+    background-image: url(images/teatro.png);
+    background-size: 67%;
+    background-repeat: no-repeat;
+    transition: background-size 5s;
+
+}
+
+
+#servicios:hover {
+    background-size: 72%;
+}
+
+
+#thirty_pad_bottom {
+    padding-bottom: 3em;
+}
+
+
+#two_pad_top_left {
+    /* padding-top: 2.3em;*/
+    padding-left: 2.5em;
+
+}
+
+#room_description {
+    height: 100%;
+    padding: 2em 2em;
+
+
+
+}
+
+#four_pad_bottom {
+    padding-bottom: 0.4em;
+    font-weight: 650;
+
+}
+
+#desc_size {
+    font-size: 18px;
+    transition: font-size 1s;
+}
+
+#desc_size:hover {
+
+    text-shadow: 2px 2px 4px #00000040;
+
+
+}
+
+#fifty_pad_bottom {
+    padding: 1em;
+}
+
+#fifty_pad_top {
+    padding-top: 5em;
+}
+
+
+.boldtitles {
+    font-weight: 650;
+    text-shadow: 2px 2px 4px #00000040;
+}
+
+
+
+
+#fifty_pad_right {
+    padding-right: 5em;
+}
+
+#fifty_pad_left {
+    padding-left: 5em;
+}
+
+
+#seventy_pad_top {
+    padding-top: 7em;
+}
+
+#twenty_pad_bottom {
+    padding-bottom: 2em;
+}
+
+#copyright {
+    padding-top: 1em;
+   
+}
+
+#seventy_pad_right {
+    padding-right: 7em;
+}
+
+#twenty_pad_top {
+    padding: 2em 0em;
+}
+
+
+
+
+.icon {
+    width: 25px;
+    height: 25px;
+    min-width: 10px;
+    min-height: 10px;
+    margin-right: 10px;
+
+}
+
+#icondesc {
+    width: 45px;
+    height: 45px;
+    min-width: 10px;
+    min-height: 10px;
+    margin-right: 15px;
+    padding-bottom: 2px;
+
+}
+
+.titlebold {
+    font-weight: 600;
+}
+
+#textsize {
+    font-size: large;
+}
+
+#greenroom {
+    background: rgba(237, 220, 38, 0.282);
+    padding: 2em 0em;
+}
+
+#dinerrooms {
+    padding: 2em 0em;
+    background: rgba(237, 220, 38, 0.282);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#hab {
+    color: rgb(35, 35, 35);
+    background: rgb(255, 255, 192);
+    padding: 5em 1em;
+    background-position-x: right;
+    background-repeat: repeat-y;
+    transition: background-size 5s;
+    background-image: url(images/wall.png);
+    background-size: 87%;
+    
+
+}
+
+#hab:hover {
+
+    background-size: 90%;
+
+}
+
+#rules {
+    
+    padding: 5em 2em;
+    color: rgb(236, 233, 233);
+    background-color: rgb(86, 107, 19);
+    font-size: larger;
+    transition: background-color 6s;
+    
+}
+
+#rules:hover {
+
+    background-color: rgb(166, 195, 70);
+   
+}
+
+#anf {
+    padding: 5em 2em;
+    color: rgb(236, 233, 233);
+    background-color: rgb(113, 172, 144);
+    font-size: large;
+    transition: background-color 6s;
+    
+}
+
+#anf:hover{
+    background-color: rgb(29, 75, 88);
+}
+
+#cite {
+    background-color: rgba(57, 57, 57, 0.282);
+    transition: background-color 2s;
+}
+
+#cite:hover {
+    background-color: rgba(126, 126, 126, 0.434);
+}
+
+#profile {
+    border-radius: 90px;
+    box-shadow: 2px 2px 4px #00000040;
+}
+
+#footer {
+    padding: 1em 2em;
+    background: rgb(226, 223, 223);
+    background-image: url(images/nav2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+@font-face {
+    font-family: orator;
+    src: url(fonts/);
+}
+
+#fontchanged {
+    font-family: myFirstFont;
+}
+
+#photostrans {
+    min-width: 2em;
+    min-height: 1em;
+    max-width: auto;
+    max-height: auto;
+    width: 390px;
+    height: 290px;
+    transition: width 1s, height 1s;
+}
+
+#photostrans:hover {
+    min-width: 3em;
+    min-height: 2em;
+    width: 420px;
+    height: 320px;
+}
+
+#photostrans_bath {
+    width: 280px;
+    height: 300px;
+    transition: width 1s, height 1s;
+}
+
+#photostrans_bath:hover {
+    width: 310px;
+    height: 330px;
+}
+
+
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:link {
+    color: rgb(39, 41, 39);
+    background-color: transparent;
+    text-decoration: none;
+
+  }
+  
+  a:visited {
+    color: rgb(70, 69, 69);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(7, 7, 118);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
